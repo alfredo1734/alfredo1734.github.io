@@ -1,0 +1,19 @@
+html{background-color:orange;
+text-align: center;}
+h1{color:black;text-shadow: 2px 2px 5px white;
+text-align: center;}
+h2{color:black;text-shadow: 2px 2px 5px white;
+text-align: center;}
+p {color:black}
+b {color:black;}
+h3 {color:black;text-shadow: 2px 2px 5px blue;
+text-align: center;}
+.container {width: 80%; margin:0 auto;}
+.logo {float:left; padding: 10px 0;}
+nav {float: right;}
+nav ul {margin:0; padding: 0; list-style: none;}
+nav li {display: inline-block; margin-left: 100px; padding-top: 25px; position: relative;}
+nav a {text-decoration: none; text-transform: uppercase; font-size: 24px;}
+nav a:hover {color: black;}
+nav a::before {content: ""; display: block; height: 5px; width: 100%; background-color: black; position: absolute; top: 0; width: 0%;}
+nav a:hover::before {width: 100%;}
